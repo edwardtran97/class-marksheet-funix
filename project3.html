@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Project 3 - Create application to calculate average score</title>
+    <link href="style.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="function.js" type="text/javascript"></script>
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-10 col-sm-8 col-md-6 col-lg-6 col-xl-4 offset-sm-2 offset-md-3 offset-lg-3 offset-xl-4">
+        <h1>Class Marksheet</h1>
+        <form>
+          <label>Họ tên</label>
+          <input type="text" id="fullname"><br>	
+          <label>Điểm toán</label>	
+          <input type="number" min="0" max ="10" id="math"><br>
+          <label>Điểm lý</label>	
+          <input type="number" min="0" max ="10" id="physical"><br>
+          <label>Điểm hóa</label>	
+          <input type="number" min="0" max ="10" id="chemistry"><br><br>
+          <button type="button" id="insert">Nhập</button>	
+        </form>
+      </div>
+    </div>
+    <br>
+    <br>
+    <div class="row">
+      <div class="col-12 col-sm-10 col-md-10 col-lg-10 offset-sm-1 offset-md-1 offset-lg-1">
+        <table class="table1">
+          <thead>
+            <th style="width: 8.33%">STT</th>
+            <th style="width: 33.33%">Họ tên</th>
+            <th style="width: 14.583%">Toán</th>
+            <th style="width: 14.583%">Lý</th>
+            <th style="width: 14.583%">Hóa</th>
+            <th style="width: 14.583%">Trung bình</th>
+          </thead>
+          <tbody>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-10 col-sm-8 col-md-6 col-lg-6 col-xl-6 offset-sm-2 offset-md-3 offset-lg-3 offset-xl-3">
+        <div class="verify">
+          <button type="button" id="calculate">Tính điểm trung bình</button>
+          <button type="button" id="hsg">Xác định học sinh giỏi</button>
+        </div>
+      </div>
+    </div>
+  </div>    
+</body>
+</html>

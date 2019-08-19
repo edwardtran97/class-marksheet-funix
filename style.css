@@ -1,0 +1,23 @@
+form, h1 {
+    margin-left: 50px;
+}
+form input {
+    margin-bottom: 10px;  
+}
+form button {
+    margin-left: 50px;
+}
+.table1 {
+    width: 100%;      
+}
+.table1 th, .table1 td {
+    border: 1px solid black;
+    text-align: center;
+}
+.verify {
+    margin-top: 40px;
+    margin-left: 50px;
+}
+.goodStudent td {
+	background-color: red;
+}
